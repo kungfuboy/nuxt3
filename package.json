@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "less": "^4.1.3",
+    "less-loader": "^11.1.0",
+    "nuxt": "3.0.0-rc.12",
+    "nuxt-windicss": "^2.5.2"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^6.1.0",
+    "ant-design-vue": "^3.2.13",
+    "unplugin-vue-components": "^0.22.9"
+  }
+}
