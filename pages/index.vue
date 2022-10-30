@@ -9,6 +9,7 @@
                 <DownloadOutlined />
             </template>
         </Button>
+        <br />
         <NuxtLink to="/child">Child</NuxtLink>
     </div>
 </template>
