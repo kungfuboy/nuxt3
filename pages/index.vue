@@ -1,14 +1,18 @@
 <template>
     <div>
         <div class="border px-4">
-            ssssww
+            ssssswww
         </div>
-        <span>jjsfssgs</span>
-        <a-button type="primary" size="large">
+        <span>jjsfs是ssssgs</span>
+        <Button type="primary" size="large">
             <template #icon>
                 <DownloadOutlined />
             </template>
-        </a-button>
+        </Button>
         <NuxtLink to="/child">Child</NuxtLink>
     </div>
 </template>
+<script setup>
+import { Button } from 'ant-design-vue'
+import { DownloadOutlined } from '@ant-design/icons-vue'
+</script>

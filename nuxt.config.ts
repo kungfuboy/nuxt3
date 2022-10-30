@@ -7,16 +7,13 @@ export default defineNuxtConfig({
   vite: {
     plugins: [
       Components({
-        resolvers: [AntDesignVueResolver({ resolveIcons: true })]
+        resolvers: [
+          AntDesignVueResolver({ resolveIcons: true, importStyle: "less" })
+        ]
       })
     ],
-
     ssr: {
-      noExternal: [
-        "ant-design-vue",
-        "compute-scroll-into-view",
-        "@ant-design/icons-vue"
-      ]
+      noExternal: ["ant-design-vue", "@ant-design/icons-vue"]
     }
   }
 });
